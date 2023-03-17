@@ -14,7 +14,7 @@ function Contact() {
   return (
     <div className='main'>
  
-      {loading ?  <h1 className='titel'>Contact Us page</h1> :  <div> <LinearProgress 
+      {loading ?  <h1 className='titel'>Contact Us page comming soon</h1> :  <div> <LinearProgress 
       
         style={{ position: 'fixed', top: 0, left: 0, width: '100%' }}
       />  <h1 className='titel'><Skeleton /></h1></div>}
