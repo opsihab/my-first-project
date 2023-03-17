@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    position: fixed;
+    top: 15px;
+    bottom: 15px;
+    left: 18px;
+    width: 82px;
+    overflow: hidden;
+    transition: widh 0.2s linear;
+    transition: all 0.5s ease;
+    
+    backdrop-filter: blur(5.5px);
+    background: linear-gradient(135deg,#ffffff ,#ffffff);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(124, 124, 124, 0.679);
+}
+.logo:hover{
+    background: #ffffff;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 16px 0 38px 13px;
+}
+
+.logo img{
+    width: 50px;
+    height: 55px;
+    border-radius: 50%;
+}
+.logo span{
+    font-weight: normal !important;
+    padding-left: 18px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 24px;
+    color: #000000 !important;
+}
+a{
+    position: relative;
+    color: #000000;
+    font-size: 19px;
+    display: table;
+    width: 290px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 9px;
+  
+}
+
+.Home-icon{
+    width: 75px;
+    height: 37px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: -8px;
+    margin-left: 3px;
+}
+
+a:hover{
+    background:#E6E6E6;
+    transition: all 0.4s ease;
+}
+nav:hover{
+    width: 290px;
+    transition: all 0.5s ease;
+  
+}
+.active .Home-icon{
+    color: #ff6f00;
+}
+
+.active span{
+    color: #ff6f00;
+    font-weight: 800;
+}

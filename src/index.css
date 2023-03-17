@@ -1,0 +1,41 @@
+.language{
+  height: 45px;
+  background: #ffffff;
+  text-align: center;
+
+ margin-left: 195px;
+}
+.container {
+  display: flex;
+  margin-top: 12px;
+}
+
+.col {
+  flex: 1;
+}
+.title-ttp{
+  text-align: center;
+  color: rgb(249, 88, 8);
+  font-weight: 800;
+}
+
+.language button{
+  padding: 10px 10px 10px 10px;
+  background: #0084ff;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'SolaimanLipi', Arial, sans-serif !important;
+}
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  padding-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
