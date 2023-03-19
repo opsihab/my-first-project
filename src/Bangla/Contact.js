@@ -13,7 +13,7 @@ function Contact() {
   return (
     <div className='main'>
  
-      {loading ?  <h1 className='titel'>যোগাযোগ</h1> :    <LinearProgress
+      {loading ?  <h1 className='titel'>যোগাযোগ পেজ আসিতেছে</h1> :    <LinearProgress
       
         style={{ position: 'fixed', top: 0, left: 0, width: '100%' }}
       />}
