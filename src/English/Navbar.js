@@ -18,7 +18,7 @@ export default function Navbar() {
         </NavLink>
       </li>
       <li><NavLink to="/">
-          <IoHomeOutline className='Home-icon' />
+          
           <span className="nav-item">Home</span>
         </NavLink></li>
       <li><NavLink to="/about">
