@@ -5,6 +5,7 @@ import { AiFillHome } from "react-icons/ai";
 import Logo from '../opsihab660.jpg'
 import { MdPermContactCalendar } from "react-icons/md";
 import { FaInfoCircle } from 'react-icons/fa';
+import { IoHomeOutline } from "react-icons/io5";
 
 export default function Navbar() {
   return (
@@ -17,7 +18,7 @@ export default function Navbar() {
         </NavLink>
       </li>
       <li><NavLink to="/">
-          <AiFillHome className='Home-icon' />
+          <IoHomeOutline className='Home-icon' />
           <span className="nav-item">Home</span>
         </NavLink></li>
       <li><NavLink to="/about">
